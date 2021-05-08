@@ -1,8 +1,8 @@
-package exercicios;
+package Desafios;
 
 import java.util.Scanner;
 
-public class ExercEmAula1 {
+public class Desafio1 {
 	public static void main (String[] args) {
 	Scanner read = new Scanner(System.in);
 	//variables
@@ -18,5 +18,7 @@ public class ExercEmAula1 {
 	f = (1.8*c) + 32;
 	//output
 	System.out.println(" Oi " + nome + " a temperatura em Fareheint é  = "+f+"°F.");	
+	
+	read.close();
 	}
 }

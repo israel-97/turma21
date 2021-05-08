@@ -1,4 +1,4 @@
-package Lista2;
+package JAVA_Lista2;
 
 import java.util.Scanner;
 
@@ -33,7 +33,7 @@ public class Exerc3 {
     	   System.out.printf("OI " +nome+", SUA CATEGORIA É ADULTO.");
        }
        else { 
-        	   System.out.printf("OI " +nome+", VOCÊ AINDA NÃO POUSSÍ UMA CATEGORIA.");
+        	   System.out.printf("OI " +nome+", VOCÊ AINDA NÃO POUSS�? UMA CATEGORIA.");
            }
        leia.close();
         }

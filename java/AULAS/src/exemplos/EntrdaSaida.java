@@ -13,5 +13,7 @@ public class EntrdaSaida {
 		b = leia.nextInt();
 		soma = a+b;
 		System.out.println(soma);
+		
+		leia.close();
 	}
 }

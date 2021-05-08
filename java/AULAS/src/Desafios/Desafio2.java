@@ -1,8 +1,8 @@
-package exercicios;
+package Desafios;
 
 import java.util.Scanner;
 
-public class ExercEmAula2 {
+public class Desafio2 {
 	public static void main (String[] args) {
 	Scanner read = new Scanner(System.in);
 	//variables
@@ -19,5 +19,9 @@ public class ExercEmAula2 {
 	idade = anoAtual - ano;
 	System.out.println();
 	System.out.printf(nome+", voce têm "+ idade +" anos e seu gênero é "+genero+".");
+	
+	
+	read.close();
 	}
+	
 }

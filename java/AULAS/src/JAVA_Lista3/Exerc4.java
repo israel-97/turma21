@@ -1,4 +1,4 @@
-package Lista3;
+package JAVA_Lista3;
              /*
               * Uma empresa desenvolveu uma pesquisa para saber as características
 				psicológicas dos indivíduos de uma região. Para tanto, a cada uma das pessoas
