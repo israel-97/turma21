@@ -1,4 +1,4 @@
-package Objeto_Lista1;
+package Lista5;
 
 import OrientaObjeto.Patinete_Exerc5;
 
