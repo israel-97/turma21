@@ -1,24 +1,31 @@
 package Lista6;
 
 public class Cavalo extends Animal{
-	private boolean correr;
-    private String som = "Hiin in in";
+	
+    private boolean correr;
     
-	public Cavalo(String nome, int idade, boolean correr, String som) {
+	
+	
+	public Cavalo(String nome, int idade, boolean correr) {
 		super(nome, idade);
 		this.correr = correr;
-		
 	}
+	
 
 	public boolean isCorrer() {
+		System.out.println("ESTÁ CORRENDO...");
 		return correr;
 	}
+
 
 	public void setCorrer(boolean correr) {
 		this.correr = correr;
 	}
-	public String emitirSom() {
-		return som;
+
+	@Override
+	public String emitaSom ()
+	{
+		super.setSom("Hiin in in");
+		return super.getSom();
 	}
-    
 }
