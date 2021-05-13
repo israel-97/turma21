@@ -1,19 +1,20 @@
 package Desafios;
 
-public class Func1 {
+public class Funcionario {
 	private String matricula;
 	private String nome;
 	protected int horasTrabalhadas; 
 	protected double valorHora;
 	
 	
-	public Func1(String matricula, String nome) {
+	
+	public Funcionario(String matricula, String nome) {
 		super();
 		this.matricula = matricula;
 		this.nome = nome;
 	}
 
-	public Func1(String matricula, String nome, int horasTrabalhadas, double valorHora) {
+	public Funcionario(String matricula, String nome, int horasTrabalhadas, double valorHora) {
 		super();
 		this.matricula = matricula;
 		this.nome = nome;

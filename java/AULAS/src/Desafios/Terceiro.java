@@ -1,6 +1,6 @@
 package Desafios;
 
-public class Terceiro extends Func1{
+public class Terceiro extends Funcionario{
 
 		private double adicional ;
 
